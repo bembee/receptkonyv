@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+main,
+footer,
+header,
+article,
+section,
+div {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+}
+
+.hatter {
+  background-color: lightsalmon;
+}
